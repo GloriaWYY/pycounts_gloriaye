@@ -5,17 +5,17 @@ Calculate word counts in a text file!
 ## Installation
 
 ```bash
-$ pip install pycounts
+$ pip install pycounts_gloriaye
 ```
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
+`pycounts_gloriaye` can be used to count words in a text file and plot results
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounts_gloriaye.pycounts_gloriaye import count_words
+from pycounts_gloriaye.plotting import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
@@ -32,12 +32,12 @@ By contributing to this project, you agree to abide by its terms.
 
 ## License
 
-`pycounts` was created by Tomas Beuzen. It is licensed under the terms
+`pycounts_gloriaye` was created by Tomas Beuzen. It is licensed under the terms
 of the MIT license.
 
 ## Credits
 
-`pycounts` was created with 
+`pycounts_gloriaye` was created with 
 [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and 
 the `py-pkgs-cookiecutter` 
 [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
